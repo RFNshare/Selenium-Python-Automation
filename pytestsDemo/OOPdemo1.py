@@ -1,4 +1,4 @@
-from OOPdemo import Calculator
+from pytestsDemo.OOPdemo import Calculator
 
 
 # Inheritance
