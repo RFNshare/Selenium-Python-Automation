@@ -3,9 +3,7 @@ import time
 
 from selenium.webdriver.support.select import Select
 
-# driver = webdriver.Chrome('./chromedriver.exe')
-driver = webdriver.Firefox(
-executable_path=r'C:\Users\rfnsh\PycharmProjects\PythonTestingUdemy\pytestsSelenium\geckodriver.exe')
+driver = webdriver.Chrome('./chromedriver.exe')
 
 driver.maximize_window()
 driver.get("https://rahulshettyacademy.com/angularpractice")
