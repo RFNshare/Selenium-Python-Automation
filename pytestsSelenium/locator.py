@@ -6,7 +6,7 @@ driver = webdriver.Chrome('./chromedriver.exe')
 driver.maximize_window()
 # driver.get("https://rahulshettyacademy.com/angularpractice")
 # driver.find_element_by_css_selector("input[name='name']").send_keys("FUCK")
-# driver.find_element_by_xpath('//input[@type="submit"]').click()
+# driver.find_element_by_xpath('`//input[@type="submit"]').click()
 # display = driver.find_element_by_xpath("//div[@class='alert alert-success alert-dismissible']").text
 # print(display)
 driver.get("https://login.salesforce.com/")
