@@ -33,6 +33,15 @@ driver.find_element_by_xpath("//button[text()='PROCEED TO CHECKOUT']").click()
 # driver.implicitly_wait(5)
 wait = WebDriverWait(driver, 10)
 wait.until(EC.presence_of_element_located((By.XPATH, "//input[@class='promoCode']")))
+products_cart = driver.find_elements_by_xpath("//td/p[@class='product-name']")
+lst_p = []
+for product_cart in products_cart:
+    print(product_cart.text)
+    print("Adding this product into list, loading.....")
+    time.sleep(3)
+    lst_p.append(product_cart.text)
+print(lst_p)
+assert lst == lst_p
 driver.find_element_by_xpath("//input[@class='promoCode']").send_keys("rahulshettyacademy")
 # driver.implicitly_wait(5)
 driver.find_element_by_xpath("//button[@class='promoBtn']").click()
