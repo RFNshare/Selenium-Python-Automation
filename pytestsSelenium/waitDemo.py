@@ -40,7 +40,7 @@ for product_cart in products_cart:
     print("Adding this product into list, loading.....")
     time.sleep(3)
     lst_p.append(product_cart.text)
-print(lst_p)
+# print(lst_p)
 assert lst == lst_p
 driver.find_element_by_xpath("//input[@class='promoCode']").send_keys("rahulshettyacademy")
 # driver.implicitly_wait(5)
