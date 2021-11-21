@@ -29,15 +29,12 @@ for product in products:
     print(product.text)
     cart_sum += float(product.text)
 
-
 print(cart_sum)
 
 after_sum = driver.find_element_by_css_selector("span.totAmt").text
 print(float(after_sum))
 
 assert cart_sum == float(after_sum)
-
-
 
 # ------------------------------
 time.sleep(5)
