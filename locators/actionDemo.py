@@ -13,6 +13,7 @@ action = ActionChains(driver)
 # action.move_to_element(driver.find_element_by_link_text("Reload")).click().perform()
 
 driver.get("https://chercher.tech/practice/practice-pop-ups-selenium-webdriver")
+# action.context_click(driver.find_element_by_id("double-click")).perform()
 action.double_click(driver.find_element_by_id("double-click")).perform()
 alert = driver.switch_to.alert
 alert.accept()
