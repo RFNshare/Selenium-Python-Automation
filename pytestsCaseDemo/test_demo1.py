@@ -1,4 +1,8 @@
-def test_one():
+import pytest
+
+
+@pytest.mark.now
+def test_one_credit():
     print("Hello")
 
 
