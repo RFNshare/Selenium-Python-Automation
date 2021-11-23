@@ -1,10 +1,14 @@
 import pytest
 
+# mentor@rahulshettyacademy.com
+@pytest.mark.usefixtures("cross")
+class TestFix:
 
-@pytest.fixture()
-def setup():
-    print("Setup")
+    # def test_fix(self):
+    #     print("second")
+    #
+    # def test_fix2(self, data):
+    #     print(data[0])
 
-
-def test_fix(setup):
-    print("second")
+    def test_fix3(self, cross):
+        print(cross[0])
