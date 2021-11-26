@@ -1,8 +1,12 @@
+import logging
 import pytest
 
+from pytestsCaseDemo.base import Base
+
+
 # mentor@rahulshettyacademy.com
-@pytest.mark.usefixtures("cross")
-class TestFix:
+
+class TestFix(Base):
 
     # def test_fix(self):
     #     print("second")
@@ -11,4 +15,7 @@ class TestFix:
     #     print(data[0])
 
     def test_fix3(self, cross):
-        print(cross[0])
+        log = self.test_Log()
+        log.info(cross)
+        # print(cross[0])
+

@@ -1,0 +1,44 @@
+2021-11-23 16:12:15,134 :INFO : root :AD
+2021-11-23 16:20:50,526 :INFO : root :AD
+2021-11-23 16:20:50,530 :INFO : root :AD
+2021-11-23 16:20:50,530 :INFO : root :AD
+2021-11-23 16:20:50,537 :INFO : root :chrome
+2021-11-23 16:20:50,537 :INFO : root :chrome
+2021-11-23 16:20:50,542 :INFO : root :f
+2021-11-23 16:20:50,542 :INFO : root :f
+2021-11-23 16:21:19,759 :INFO : root :AD
+2021-11-23 16:21:19,764 :INFO : root :AD
+2021-11-23 16:21:19,764 :INFO : root :AD
+2021-11-23 16:21:19,769 :INFO : root :('chrome', 'asd')
+2021-11-23 16:21:19,769 :INFO : root :('chrome', 'asd')
+2021-11-23 16:21:19,774 :INFO : root :firefox
+2021-11-23 16:21:19,774 :INFO : root :firefox
+2021-11-23 16:24:11,275 :INFO : root :AD
+2021-11-23 16:24:11,277 :INFO : root :AD
+2021-11-23 16:24:11,277 :INFO : root :AD
+2021-11-23 16:26:11,347 :INFO : root :AD
+2021-11-23 16:26:11,349 :INFO : root :AD
+2021-11-23 16:26:11,349 :INFO : root :AD
+2021-11-23 16:26:11,351 :INFO : root :AD
+2021-11-23 16:26:11,351 :INFO : root :AD
+2021-11-23 16:26:11,351 :INFO : root :AD
+2021-11-23 16:26:11,351 :INFO : root :('chrome', 'asd')
+2021-11-23 16:26:11,351 :INFO : root :('chrome', 'asd')
+2021-11-23 16:26:11,351 :INFO : root :('chrome', 'asd')
+2021-11-23 16:26:11,352 :INFO : root :AD
+2021-11-23 16:26:11,352 :INFO : root :AD
+2021-11-23 16:26:11,352 :INFO : root :AD
+2021-11-23 16:26:11,352 :INFO : root :AD
+2021-11-23 16:26:11,352 :INFO : root :firefox
+2021-11-23 16:26:11,352 :INFO : root :firefox
+2021-11-23 16:26:11,352 :INFO : root :firefox
+2021-11-23 16:26:11,352 :INFO : root :firefox
+2021-11-23 16:28:31,628 :INFO : pytest_pyfunc_call :AD
+2021-11-23 16:28:31,634 :INFO : pytest_pyfunc_call :AD
+2021-11-23 16:28:31,634 :INFO : pytest_pyfunc_call :AD
+2021-11-23 16:28:31,640 :INFO : test_fix3 :AD
+2021-11-23 16:28:31,640 :INFO : test_fix3 :('chrome', 'asd')
+2021-11-23 16:28:31,645 :INFO : test_fix3 :AD
+2021-11-23 16:28:31,645 :INFO : test_fix3 :AD
+2021-11-23 16:28:31,645 :INFO : test_fix3 :firefox
+2021-11-23 16:28:31,645 :INFO : test_fix3 :firefox
